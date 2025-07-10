@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lib_sym_ssh")(type "KiCad")(uri "/lib/lib_sym/lib_sym_ssh.kicad_sym")(options "")(descr ""))
+)

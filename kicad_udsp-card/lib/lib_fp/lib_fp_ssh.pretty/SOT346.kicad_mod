@@ -1,0 +1,159 @@
+(footprint "SOT346"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT346 (SC59A) - 123 form")
+	(tags "SOT346 SC59A 123")
+	(property "Reference" "SOT346"
+		(at 0 1.35 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fc7a1b17-131e-41cc-ac85-c9e8d97da365")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.07)
+			)
+		)
+	)
+	(property "Value" "SOT346"
+		(at 0 1.35 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "06f861fe-8f9c-450f-998b-8ab777a1d63f")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.07)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 1.35 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9afa67d-6351-4ad6-b362-b457bb9f397e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 1.35 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "281a003e-679f-4147-823f-d8cbaddcd1b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 1.35 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "205fc244-2227-41ca-ac21-f0c866a6ded6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.55 0)
+		(end -1.55 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "442fb352-37ec-4020-9857-ff9f109ae99f")
+	)
+	(fp_line
+		(start -1.55 0)
+		(end -0.65 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f21855e0-77b6-4c50-95e0-d59c342349f5")
+	)
+	(fp_line
+		(start 0.35 2.2)
+		(end -0.35 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a562118d-204c-4e1c-b1b6-bd3dffcd97dc")
+	)
+	(fp_line
+		(start 0.65 0)
+		(end 1.55 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2492db4e-40bd-41b3-94a1-6acebf285594")
+	)
+	(fp_line
+		(start 1.55 0)
+		(end 1.55 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc63e866-6238-47f3-9e15-c9fcef6ad861")
+	)
+	(fp_rect
+		(start -1.7 -0.6)
+		(end 1.7 2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "bf78f123-eae9-4b54-aacd-304c8b4cb124")
+	)
+	(pad "1" smd rect
+		(at -0.95 2.1)
+		(size 0.6 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a06c3de5-0469-4b2e-aa54-41f03108610c")
+	)
+	(pad "2" smd rect
+		(at 0.95 2.1)
+		(size 0.6 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cef63872-ffb1-4d2d-b537-b56b3aa3c331")
+	)
+	(pad "3" smd rect
+		(at 0 0)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7761497e-5c46-45e0-9c5d-59f6ffb8838e")
+	)
+	(model "/Users/crsknr/TUM/Master/5.Sem/Masterarbeit/hardware/02-SCH/ssh/lib/3d_models/DIO_RB400DFH_ROM.step"
+		(offset
+			(xyz 0 -1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
