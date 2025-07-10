@@ -41,10 +41,8 @@ The uDSP-Card is powered by the XMOS XU316, a dual-core, 800 MHz processor wit
 
 [`lib_udsp-card_board_support`](https://github.com/crsknr/lib_udsp-card_board_support): XMOS board support package and configuration files for firmware development.
 
-## Reference
-
-[^1]: **XMOS**, *"xcore.ai Explorer v2 BoardManual"*, Manual XM014531A, (2024)
-
 ## License
 
 This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+[^1]: **XMOS**, *"xcore.ai Explorer v2 BoardManual"*, Manual XM014531A, (2024)
